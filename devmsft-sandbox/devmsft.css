@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: black;
+    background: white;
+    min-width: 410px;
+}
+
+body,
+.resourcelist > div > h3 {
+    font-weight: normal;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#build > h1,
+.resourcelist > div > h2 {
+    font-weight: bold;
+    font-family: "Segoe UI Bold", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#build > h2 {
+    font-weight: 300;
+    font-family: "Segoe UI Semilight", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.resourcelist > h1 {
+    font-weight: lighter;
+    font-family: "Segoe UI Light", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#header {
+    padding: 10px 0 5px 70px;
+}
+
+#header > img {
+    height: 21px;
+}
+
+#footer {
+    margin-top: 160px;
+    padding: 20px 70px;
+    background: #eee;
+    font-size: 12px;
+}
+
+#footer:after {
+    content: "";
+    display: block;
+    clear: both;
+    height: 0;
+}
+
+#footer > div {
+    float: right;
+}
+
+#footer > div:first-child {
+    float: left;
+}
+
+#footer > div > p {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+#footer > div > p > a {
+    color: #333;
+    text-decoration: none;
+}
+
+#build {
+    width: 100%;
+    background: url("assets/build.jpg") center no-repeat;
+    background-size: cover;
+    text-align: center;
+    overflow: hidden;
+    color: white;
+}
+
+#build > h1 {
+    margin: 82px 20px 0 20px;
+    font-size: 34px;
+    line-height: 56px;
+}
+
+#build > h2 {
+    margin: 13px 20px 0 20px;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+#build > p {
+    margin: 45px 0 77px 0;
+}
+
+#build > p > button {
+    height: 32px;
+    background: none;
+    border: 2px solid white;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    padding: 0 25px;
+}
+
+#build > p > button:hover {
+    background: white;
+    color: black;
+}
+
+.resourcelist {
+    text-align: center;
+    margin: 0 45px;
+}
+
+.resourcelist.primary {
+    margin-top: 76px;
+}
+
+.resourcelist.secondary {
+    margin-top: 94px;
+}
+
+.resourcelist > h1 {
+    font-size: 34px;
+    line-height: 40px;
+}
+
+.resourcelist > div {
+    display: inline-block;
+    vertical-align: top;
+    width: 230px;
+    line-height: 20px;
+    margin: 52px 45px 0 45px;
+}
+
+.resourcelist > div > img {
+    height: 48px;
+}
+
+.resourcelist > div > h2 {
+    margin-top: 48px;
+    font-size: 18px;
+}
+
+.resourcelist.secondary > div > h2 {
+    margin-top: 0;
+}
+
+.resourcelist > div > h3 {
+    margin-top: 9px;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.resourcelist > div > ul {
+    margin-top: 30px;
+    list-style: none;
+}
+
+.resourcelist > div li {
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.resourcelist > div > p {
+    margin-top: 30px;
+}
+
+.resourcelist > div > p > a {
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.6);
+    text-decoration: none;
+}
